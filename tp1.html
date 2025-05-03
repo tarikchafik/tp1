@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Projet</title>
+</head>
+<body>
+    <center>
+        <form method="post" action="reponse.php">
+          
+
+                Nom :<br>
+                <input type="text" name="nom"><br><br>
+
+                Prénom :<br>
+                <input type="text" name="prenom"><br><br>
+
+                Groupe :<br>
+                <input type="number" name="groupe" min="10" max="100"><br><br>
+
+                Sujet :<br>
+                <input type="text" name="sujet"><br><br>
+
+                Description :<br>
+                <textarea name="description" rows="4" cols="30"></textarea><br><br>
+
+                Date de début :<br>
+                <input type="date" name="debut"><br><br>
+
+                Date de fin :<br>
+                <input type="date" name="fin"><br><br>
+
+                Prof d'encadrement :<br>
+                <select name="encadrement">
+                    <option value="">-------</option>
+                    <option value="prof1">Prof 1</option>
+                    <option value="prof2">Prof 2</option>
+                    <option value="prof3">Prof 3</option>
+                </select><br><br>
+
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Effacer">
+          
+        </form>
+    </center>
+</body>
+</html>
